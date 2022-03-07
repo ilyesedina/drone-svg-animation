@@ -4,4 +4,4 @@ The drone SVG was downloaded from UnDraw. I used Figma to create group of SVG el
 Thanks to Ed Dev for the inspiration.
 
 ## The project can be viewed on the following link:
-https://
+https://ilyesedina.github.io/drone-svg-animation/
