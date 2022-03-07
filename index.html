@@ -10,7 +10,7 @@
 <body>
     <h2>SVG Animation Via CSS</h2>
     <h1>Drone</h1>
-    <div class="svg-container">
+    <div class="svg-container svgdrone">
         <svg class="svg-content" viewBox="0 0 888 553" preserveAspectRatio="xMinYMin meet" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="888" height="553"/>
             <g id="undraw_drone_surveillance_kjjg 1">
@@ -48,5 +48,12 @@
             </svg>
             
     </div>
+     <script type="text/javascript">
+        document.addEventListener("mousemove", function(e){
+            const svgdrone = document.querySelector('.svgdrone');
+
+            svgdrone.style.left = 100 + e.pageX/3 + 'px';
+        })
+    </script>
 </body>
 </html>
